@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: none;
+}
+
+#cursor {
+    width: 15px;
+    height: 15px;
+    background: #00c6ff;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: 0.1s ease-out;
+    box-shadow: 0 0 10px #00c6ff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #00c6ff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #00c6ff;
+}
+
+#contact {
+    text-align: center;
+    padding: 100px 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #00aaff;
+    text-shadow: 2px 2px 10px rgba(0, 170, 255, 0.5);
+}
+
+.contact-info {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info i {
+    color: #00aaff;
+    margin-right: 10px;
+}
+
+.contact-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3),
+                -5px -5px 15px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1em;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-form button {
+    background: #00aaff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #0077cc;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0077cc;
+    transform: scale(1.2);
+}
+#cursor {
+    width: 15px;
+    height: 15px;
+    background: #00c6ff;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: 0.1s ease-out;
+    box-shadow: 0 0 10px #00c6ff;
+}
